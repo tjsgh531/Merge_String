@@ -40,58 +40,41 @@ main {
 
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  }
-
-h1 {
+}
+main form h1 {
     margin-bottom: 20px;
 
     font-weight: normal;
     text-align: center;
     font-size: 32px;
 }
-
-label 
-{
+main form .name_container {
+    display: flex;
+} 
+main form .name_container > label:first-child {
+    margin-right: 20px;
+} 
+main form label{
     display: block;
 
     margin-bottom: 20px;
     
     font-size: 18px;
     line-height: 18px;
-
 }
-
-p {
+main form #fullName{
+    height: 60px;
     margin-bottom: 20px;
+    margin-top: 40px;
+    border-bottom: 1px solid #888888;
 
     line-height: 36px;
+    font-size: 60px;
 }
-
-
-label input {
+main form label input {
     margin-left: 20px;
+    border: 1px solid #888888;
 
     font-size: 18px;
     line-height: 18px;
-}
-
-
-.name_container {
-  display: flex;
-}
-
-.name_container > label:first-child {
-  margin-right: 20px;
-}
-
-input {
-  border: 1px solid #888888;
-}
-
-#fullName {
-  margin-top: 40px;
-  border-bottom: 1px solid #888888;
-  
-  font-size: 60px;
-  height: 60px;
 }

@@ -17,11 +17,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    box-sizing: border-box;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    
     font-family: "맑은고딕","Malgun Gothic",serif;
     font-size: 22px;
     color: #333333;
@@ -52,7 +47,7 @@ main form .name_container {
     display: flex;
 } 
 main form .name_container > label:first-child {
-    margin-right: 20px;
+    margin-right: 22px;
 } 
 main form label{
     display: block;

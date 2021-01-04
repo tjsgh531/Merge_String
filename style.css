@@ -52,9 +52,9 @@ main #full_name{
     width: 100%;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 72px;
+    line-height: 72px;
 
     position: relative;
-    top: 150px; 
+    top: 72px; 
 }

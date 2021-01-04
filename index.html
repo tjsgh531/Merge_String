@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Marge String</title>
-  <link rel="stylesheet" href="style.css"/>
-  <script src="main.js" defer></script>
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge String</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
 
-<main>
-  <form>
-    <h1>이름을 입력해 주세요.</h1>
-    <div class="name_container">
-      <label>성<input id="familyNameText" class="text" type="text"></label>
-      <label>이름<input id="firstNameText" class="text" type="text"></label>
-    </div>
-    <p id="fullName"></p>
-  </form>
-</main>
-
-</body>
+    <main>
+      <h1>이름을 입력해 주세요</h1>
+      <div id="inputSection">
+        <label>성<input type="text" id="family"></label>
+        <label>이름<input type="text" id="name"></label>
+      </div>
+      <div id="full_name"></div>
+    </main>
+  
+  </body>
 </html>
